@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetki - A Social Media Platform</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+    <link rel="shortcut icon" href="images/vetki.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="./">
+                <img src="images/vetki.webp" alt="Vetki logo">
+                <h2>Vetki</h2>
+            </a>
+        </div>
+        <nav>
+            <a href="./">Home</a>
+            <a href="#about">About</a>
+            <a href="#download">Download</a>
+        </nav>
+        <nav class="barBtn openSideBarBtn">
+            <i class="fa-solid fa-bars" onclick="openSideBar()"></i>
+        </nav>
+    </header>
+    <!-- Side Bar -->
+    <div class="side-bar">
+        <nav class="barBtn closeSideBarBtn">
+            <i class="fa-solid fa-xmark" onclick="closeSideBar()"></i>
+        </nav>
+        <nav class="links">
+            <a href="./">Home</a>
+            <a href="#about">About</a>
+            <a href="#download">Download</a>
+        </nav>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+        <div class="text">
+            <h1>Vetki – Algeria’s Own Social Media Platform!</h1>
+            <p>Share your thoughts, Connect with fellow Algerians, And engage in conversations.</p>    
+            <div class="btns">
+                <a href="#download" class="btn download-btn">Download</a>
+                <a href="#about" class="btn learn-btn">Learn more</a>
+            </div>
+        </div>
+        <div class="logo-side">
+            <img src="images/undraw_mobile-posts_kc42.svg" alt="Mobile image">
+        </div>
+    </main>
+
+    <!-- ABOUT -->
+     <section id="about" class="about">
+        <h2>What is Vetki?</h2>
+        <p class="par">Vetki is Algeria’s premier social media platform, thoughtfully designed to empower individuals across the country and beyond to connect, share, and engage in meaningful ways. Whether you're keeping in touch with friends and family, discovering like-minded communities, or expressing yourself openly, Vetki offers a secure and dynamic space tailored to your needs. Rooted in Algerian identity, it serves as a digital hub where users can exchange ideas, celebrate cultural heritage, and participate in conversations that shape and reflect our society. More than just a platform, Vetki is a movement—uniting voices, fostering collaboration, and highlighting the stories that define Algeria’s diverse and vibrant communities.</p>
+        <br>
+        <p class="par">Founded by BENCHABANE Mohamed Lamine, Vetki is committed to building a secure and engaging digital space for Algerians.</p>
+        <h2>Why Choose Vetki?</h2>
+        <div class="cards">
+            <div class="card to-right">
+                <h3>Made for Algeria 🇩🇿</h3>
+                <p>Designed with Algerian culture, values, and users in mind.</p>
+            </div>
+            <div class="card to-left">
+                <h3>Privacy First 🔒</h3>
+                <p> Vetki prioritizes user privacy and data security to ensure a safe and trustworthy experience.</p>
+            </div>
+            <div class="card to-right">
+                <h3>Global Connections 🌍</h3>
+                <p>While deeply rooted in Algeria, Vetki allows connections with people worldwide.</p>
+            </div>
+            <div class="card to-left">
+                <h3>Seamless Experience ⚡</h3>
+                <p>A fast, user-friendly interface makes socializing effortless and fun.</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- DOWNLOAD -->
+     <section id="download" class="download">
+        <h2>Download</h2>
+        <p class="download-p">Join Vetki today and be part of Algeria’s growing digital community! 🚀</p>
+        <a href="https://play.google.com/store/apps/details?id=xyz.vetki.vetki&hl=en"><img src="images/googlePlay.png" alt="Google Play Download"></a>
+        <div class="users">
+            <div class="circle">
+                <span style="--i:0;"></span>
+                <span style="--i:1;"></span>
+                <span style="--i:2;"></span>
+                <span style="--i:3;"></span>
+            </div>
+            <p>50K+ users</p>
+        </div>
+     </section>
+
+     <!-- FOOTER -->
+      <footer>
+        <div>
+            <h3>Vetki</h3>
+            <div class="links">
+                <a href="https://vetkiapp.xyz">Official Site</a>
+                <a href="https://vetkiapp.xyz/contact.html">Contact</a>
+                <a href="https://vetkiapp.xyz/terms.html">Terms</a>
+                <a href="https://vetkiapp.xyz/privacy.html">Privacy Policy</a>
+                <a href="https://vetkiapp.xyz/data-safety.html">Data Safety</a>
+                <a href="https://vetkiapp.xyz/child-safety.html">Child Safety</a>
+            </div>
+        </div>
+        <div>
+            <h3>Me</h3>
+            <div class="links">
+                <a href="https://abdelhadi.vercel.app">Portfolio</a>
+                <a href="https://github.com/Abdelhadi-360">GitHub</a>
+                <a href="https://www.instagram.com/abd_el_hadi_360/">Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100088047371504">Facebook</a>
+                <a href="https://www.youtube.com/@Abdelhadi-C">YouTube</a>
+                <a href="https://www.threads.com/@abd_el_hadi_360">Threads</a>
+            </div>
+        </div>
+      </footer>
+    <script src="app.js"></script>
+</body>
+</html>
