@@ -23,8 +23,8 @@ gsap.from(split.words, {
 gsap.from('.to-left', {
     scrollTrigger:{ 
         trigger: '.to-left',
-        start: "20% 80%",
-        end: "bottom top",
+        start: "top 60%",
+        end: "bottom 60%"
     },
     x: 100,
     duration: 1.2,
@@ -33,8 +33,8 @@ gsap.from('.to-left', {
 gsap.from('.to-right', {
     scrollTrigger:{ 
         trigger: '.to-right',
-        start: "20% 80%",
-        end: "bottom top",
+        start: "top 60%",
+        end: "bottom 60%"
     },
     x: -100,
     duration: 1.2,
@@ -43,8 +43,9 @@ gsap.from('.to-right', {
 gsap.from(".download .download-p", {
     scrollTrigger: {
         trigger: ".download a",
-        start: "20% 80%",
-        end: "bottom top"
+        start: "top 60%",
+        end: "bottom 60%",
+        
     },
     y: -100,
     duration: 1,
